@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: font;
+  src: url("../images/font/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+}
+.red {
+  color: red;
+}
+p {
+  color: rgba(48, 68, 78, 1);
+}
+$font-family: font;
+$color-main: rgba(31, 46, 53, 0.8);
+$font-size: 20px;
+
+.navbar {
+  .container-fluid {
+    ul {
+      li {
+        padding-right: 20px;
+        font-size: $font-size;
+        color: $color-main;
+        font-weight: 600;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+    }
+  }
+}
+
+.bgimg-1 {
+  background: rgb(233, 230, 230);
+}
+.card {
+  border: none !important;
+  .card-body {
+    img {
+      cursor: pointer;
+      transition: 0.5s ease;
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
+
+footer {
+  .container {
+    section {
+      a {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  #menu {
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(246, 244, 244) !important;
+    display: flex;
+  }
+  .menu,
+  .logo {
+    display: none !important;
+  }
+}

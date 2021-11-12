@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: font;
+  src: url("../images/font/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+}
+
+.red {
+  color: red;
+}
+
+p {
+  color: #30444e;
+}
+
+.navbar .container-fluid ul li {
+  padding-right: 20px;
+  font-size: 20px;
+  color: rgba(31, 46, 53, 0.8);
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.bgimg-1 {
+  background: #e9e6e6;
+}
+
+.card {
+  border: none !important;
+}
+
+.card .card-body img {
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.card .card-body img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+footer .container section a {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  #menu {
+    margin: auto;
+    padding: 10px;
+    background-color: #f6f4f4 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu,
+  .logo {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
